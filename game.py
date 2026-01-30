@@ -14,7 +14,7 @@ class Player:
 
 def print_status(player):
     print("\n" + "─" * 60)
-    print(f"Часть {ayer.part}/7   Глава {player.chapter}pl/17")
+    print(f"Часть {player.chapter}/7   Глава {player.part}/17")
     print(f"Здоровье: {player.health}%   Патроны: {player.bullets}")
     print(f"Фильтры: {player.filters // 60} ч   Союзники: {len(player.allies)}")
     print("─" * 60 + "\n")
